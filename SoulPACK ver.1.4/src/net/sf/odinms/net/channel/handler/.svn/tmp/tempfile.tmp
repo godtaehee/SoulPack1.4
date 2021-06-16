@@ -1,0 +1,117 @@
+/*
+	This file is part of the OdinMS Maple Story Server
+    Copyright (C) 2008 Patrick Huy <patrick.huy@frz.cc> 
+                       Matthias Butz <matze@odinms.de>
+                       Jan Christian Meyer <vimes@odinms.de>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License version 3
+    as published by the Free Software Foundation. You may not use, modify
+    or distribute this program under any other version of the
+    GNU Affero General Public License.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+package net.sf.odinms.net.channel.handler;
+
+import java.rmi.RemoteException;
+import java.util.logging.Level;
+
+import net.sf.odinms.client.MapleClient;
+import net.sf.odinms.client.MapleStat;
+import net.sf.odinms.client.messages.CommandProcessor;
+import net.sf.odinms.net.AbstractMaplePacketHandler;
+import net.sf.odinms.tools.MaplePacketCreator;
+import net.sf.odinms.tools.StringUtil;
+import net.sf.odinms.tools.data.input.SeekableLittleEndianAccessor;
+import net.sf.odinms.net.MaplePacket;
+import net.sf.odinms.net.channel.ChannelServer;
+
+public class GeneralchatHandler extends AbstractMaplePacketHandler {
+    @Override
+    @SuppressWarnings("empty-statement")
+    public void handlePacket(SeekableLittleEndianAccessor slea, MapleClient c) {
+        String text = slea.readMapleAsciiString();
+		int show = slea.readByte(); 
+        if (!CommandProcessor.getInstance().processCommand(c, text)) {
+            if (StringUtil.countCharacters(text, '@') > 4 || StringUtil.countCharacters(text, '%') > 4 ||
+                    StringUtil.countCharacters(text, '+') > 6 || StringUtil.countCharacters(text, '$') > 6 ||
+                    StringUtil.countCharacters(text, '&') > 6 || StringUtil.countCharacters(text, '~') > 6 ||
+                    StringUtil.countCharacters(text, 'W') > 6 || StringUtil.countCharacters(text, 'N') > 6) {
+                    text = "잘못된 입력란 입니다.";
+            }
+            String korText = "";
+            String[] petCommandText = {"iloveyou", "sit", "bad", "no", "badgirl", "badboy", "stupid", "ihateyou", "dummy", "poop", "talk", "chat", "say", "cutie", "up", "stand", "rise", "pee", "bark", "down", "hug", "sleep", "sleepy", "gotobed", "thelook", "charisma", "good", "goodboy", "baddog", "hand", "smile", "chill", "relax", "letsplay", "meh", "bleh", "laugh", "rest", "play", "melong", "actsad", "sadlook", "wait", "merryxmas", "lonely", "alone", "mush", "go", "attack", "charge", "speak", "disguise", "change", "transform", "dance", "boogie", "shakeit", "cute", "pretty", "adorable", "mylove", "likeyou", "nap", "rudeboy", "mischief", "gobble", "yes", "loveyou", "birdeye", "thanksgiving", "fly", "friedbird", "imhungry", "birdnap", "doze", "hugme", "wing", "kiss", "smooch", "muah", "liedown", "smirk", "crooked", "gas", "ignore", "impressed", "outofhere", "roll", "showmethemoney", "love", "playdead", "smellmyfeet", "trickortreat", "monstermash", "rockout", "boo", "knit", "cushion", "comb", "beach", "treeninja", "dart", "merrychristmas", "restandrelax", "snuggle", "fatty", "blind", "badbreath", "suitup", "bringthefunk"};
+            boolean petCommand = false;
+            for (int i = 0 ; i < petCommandText.length ; i++) {
+                if(petCommandText[i].equals(text))
+                    petCommand = true;
+            }
+            String[] str_prohibition = {"qudtls", "tlqkf", "rotoRl", "alclssha", "ekrcu", "alcls", "roto", "Tlqkf", "tnlqqkf", "qbdtls", "qnpdtls", "Wlwlfdk", "Wlwlfdl", "WlsEk", "tprtm", "qhwl", "Ehfdkdl", "Ehfkdl", "Tkfu", "Tkanfdj", "ekrcu", "Tkanfdj", "whw", "ckdsus", "doal", "rhwk", "Tidsus", "akfwkwl", "tprtm", "ckdsu", "Ehfcn", "ehfdkdl"};
+                for (int i = 0; i < str_prohibition.length; i++) {
+                        if (text.indexOf(str_prohibition[i]) != -1) {
+                                text = text.replaceAll(str_prohibition[i], "***");
+                        }
+                } if(petCommand) {
+                korText = text;
+            } else {
+                korText = KorConvertHandler.KorConvert(text);
+            if (text.substring(0, 1).equals("@")) {
+                MaplePacket packet = MaplePacketCreator.serverNotice(2, "[채널."+c.getChannel()+" "+c.getPlayer().getName()+"] : "+korText.substring(1));
+                try {
+                    ChannelServer.getInstance(c.getChannel()).getWorldInterface().broadcastMessage(c.getPlayer().getName(), packet.getBytes());
+                    System.out.println(c.getPlayer().getName()+" : "+korText);
+                } catch (RemoteException ex) {
+                    java.util.logging.Logger.getLogger(PlayerLoggedinHandler.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            } else if (text.substring(0,1).equals(";")){
+                MaplePacket packet = MaplePacketCreator.serverNotice(2, "[채널."+c.getChannel()+" "+c.getPlayer().getName()+"] : "+text.substring(1));
+                try {
+                    ChannelServer.getInstance(c.getChannel()).getWorldInterface().broadcastMessage(c.getPlayer().getName(), packet.getBytes());
+                    System.out.println(c.getPlayer().getName()+" : "+text);
+                } catch (RemoteException ex) {
+                    java.util.logging.Logger.getLogger(PlayerLoggedinHandler.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            } else if (text.substring(0, 1).equals("N")) {
+                if(c.getPlayer().isGM() == false) { 
+                } else {
+                MaplePacket packet = MaplePacketCreator.serverNotice(6, "[공지] "+korText.substring(1));
+                try {
+                    ChannelServer.getInstance(c.getChannel()).getWorldInterface().broadcastMessage(c.getPlayer().getName(), packet.getBytes());
+                    System.out.println(c.getPlayer().getName()+" : "+korText);
+                } catch (RemoteException ex) {
+                    java.util.logging.Logger.getLogger(PlayerLoggedinHandler.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+            } else if (text.substring(0,1).equals("}")){
+                MaplePacket packet = MaplePacketCreator.serverNotice(1, ""+korText.substring(1));
+                try {
+                    ChannelServer.getInstance(c.getChannel()).getWorldInterface().broadcastMessage(c.getPlayer().getName(), packet.getBytes());
+                    System.out.println(c.getPlayer().getName()+" : "+korText);
+                } catch (RemoteException ex) {
+                    java.util.logging.Logger.getLogger(PlayerLoggedinHandler.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            } else if (text.substring(0,1).equals("~")) {
+                c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.getChatText(c.getPlayer().getId(), text, c.getPlayer().isGM() && c.getChannelServer().allowGmWhiteText(), show)); 
+            } else {
+		c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.getChatText(c.getPlayer().getId(), korText, c.getPlayer().isGM() && c.getChannelServer().allowGmWhiteText(), show)); 
+            }
+   c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.PilseungChalkboard(c.getPlayer().getId(), false, korText));
+                try {
+                    Thread.sleep(1400);
+                      korText = null;
+                      c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.PilseungChalkboard(c.getPlayer().getId(), true, korText));
+                } catch (InterruptedException ex) {
+                java.util.logging.Logger.getLogger(PlayerLoggedinHandler.class.getName()).log(Level.SEVERE, null, ex);
+                }                        
+		}
+	}
+}
+}

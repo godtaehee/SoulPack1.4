@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="Pet.img">
+	<imgdir name="5000000">
+		<string name="name" value="Brown Kitty"/>
+		<string name="desc" value="They are quiet and gentle in nature, so they don&apos;t go craving for food too often. They don&apos;t seem to be too obedient of their owners."/>
+		<string name="descD" value="It was a cute little kitty, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000001">
+		<string name="name" value="Brown Puppy"/>
+		<string name="desc" value="They are outgoing and active in nature, so they can&apos;t sit still for a period of time, which makes them hungry often. They are very obedient of their owners."/>
+		<string name="descD" value="It was a cute little puppy, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000002">
+		<string name="name" value="Pink Bunny"/>
+		<string name="desc" value="They are well-behaved and quiet, so they don&apos;t need to be fed more than the usual amount. They are smart and obedient, but also stubborn."/>
+		<string name="descD" value="It was a cute little bunny, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000003">
+		<string name="name" value="Mini Kargo"/>
+		<string name="desc" value="They are very very active, so they get hungry pretty often. Very intelligent, they are quite obedient of their owners."/>
+		<string name="descD" value="It was a cute little Mini Kargo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000004">
+		<string name="name" value="Black Kitty"/>
+		<string name="desc" value="They are quiet and gentle in nature, so they don&apos;t go craving for food too often. They don&apos;t seem to be too obedient of their owners."/>
+		<string name="descD" value="It was a cute little kitty, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000005">
+		<string name="name" value="White Bunny"/>
+		<string name="desc" value="They are well-behaved and quiet, so they don&apos;t need to be fed more than the usual amount. They are smart and obedient, but also stubborn."/>
+		<string name="descD" value="It was a cute little bunny, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000006">
+		<string name="name" value="Husky"/>
+		<string name="desc" value="Active, yet calm at times. Can be moderately fed. Very smart in general. "/>
+		<string name="descD" value="It was a cute little Huskey, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000007">
+		<string name="name" value="Black Pig"/>
+		<string name="desc" value="Very active and hungry at all times. Need to be fed often. Very friendly in nature, so it&apos;s easy to increase the level of closeness with it."/>
+		<string name="descD" value="It was a cute little black pig, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000008">
+		<string name="name" value="Panda"/>
+		<string name="desc" value="Calm, relaxed, and gentle. A very rare creature."/>
+		<string name="descD" value="It was a cute little panda, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000009">
+		<string name="name" value="Dino Boy"/>
+		<string name="desc" value="A very adorable male baby dinosaur that is both active and unpredictable. "/>
+		<string name="descD" value="It was a cute little Dino Boy, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000010">
+		<string name="name" value="Dino Girl"/>
+		<string name="desc" value="A very adorable female baby dinosaur that is both active and unpredictable."/>
+		<string name="descD" value="It was a cute little Dino Girl, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000011">
+		<string name="name" value="Monkey"/>
+		<string name="desc" value="The always-curious monkey never rests, wanders around."/>
+		<string name="descD" value="It was a cute little monkey, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000012">
+		<string name="name" value="White Tiger"/>
+		<string name="desc" value="They are very gentle and obedient in nature, easily becoming friendly with the owner, which in turn speeds up the level-up process."/>
+		<string name="descD" value="It was a cute little white tiger, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000013">
+		<string name="name" value="Elephant"/>
+		<string name="desc" value="Very outgoing and mature; doesn&apos;t need to be fed all the time. An intelligent pet that easily understands the commands from the master. "/>
+		<string name="descD" value="It was a cute little Elephant, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000014">
+		<string name="name" value="Rudolph"/>
+		<string name="desc" value="Every Christmas, Santa Claus rides on the sleigh driven by his trusty sidekick, Rudolph."/>
+		<string name="descD" value="It was a cute little red-nosed Rudolph, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000015">
+		<string name="name" value="Dasher"/>
+		<string name="desc" value="They are smart and obedient by nature, picking up commands faster than other pets, but they also can get hungry in a hurry."/>
+		<string name="descD" value="It was a cute little Rudolph, but the &quot;Water of Life&quot; has completely dried up, turning it back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000017">
+		<string name="name" value="Robot"/>
+		<string name="desc" value="A hyper-active robot that always changes its mind on everything. Very unpredictable, yet easy to please."/>
+		<string name="descD" value="It was a cute little robot, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000018">
+		<string name="name" value="Husky"/>
+		<string name="desc" value="Active, yet calm at times. Can be moderately fed. Very smart in general. "/>
+		<string name="descD" value="It was a cute little Huskey, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000020">
+		<string name="name" value="Mini Yeti"/>
+		<string name="desc" value="A trustworthy pet that quietly watches everyone&apos;s back. Quiet, but smart and gets a lot of things done."/>
+		<string name="descD" value="It was a cute little Mini Yeti, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000021">
+		<string name="name" value="Monkey"/>
+		<string name="desc" value="Very charming who is also very intuitive, but not as obedient as some of the others"/>
+		<string name="descD" value="It was a cute little Monkey, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000022">
+		<string name="name" value="Turkey"/>
+		<string name="desc" value="Somewhat active, quiet and not well-behaved in nature. It is not very obedient, but isn&apos;t hungry very often."/>
+		<string name="descD" value="It was a cute little Turkey, but the &quot;Water of Life&quot; has completely dried up, turning it back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000023">
+		<string name="name" value="Penguin"/>
+		<string name="desc" value="Penguins are always energetic and in good spirits. Use the Meso Magnet and Item Pouch on the Penguin to pick up the mesos and items on the ground."/>
+		<string name="descD" value="It was a cute little Penguin, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000024">
+		<string name="name" value="Jr. Balrog"/>
+		<string name="desc" value="A trustworthy pet who is equally quick-witted. Unlike its masculine appearance, it is prone to insecurity and shyness."/>
+		<string name="descD" value="It was a cute little Jr. Balrog, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000025">
+		<string name="name" value="Golden Pig"/>
+		<string name="desc" value="This designed Golden Pig will definately bring you a Good Luck! Use the Meso Magnet and Item Pouch to pick up the mesos and items on the ground."/>
+		<string name="descD" value="It was a cute little Golden Pig, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000028">
+		<string name="name" value="Dragon"/>
+		<string name="desc" value="A special egg that becomes a mythical Baby Dragon upon hatching."/>
+	</imgdir>
+	<imgdir name="5000029">
+		<string name="name" value="Baby Dragon"/>
+		<string name="desc" value="A Baby Dragon hatched out of the special Dragon Egg. At Level 15, the pet can be evolved into a full-fledged Adult Dragon with the help of Garnox the NPC using the Rock of Evolution."/>
+		<string name="descD" value="It was a cute baby dragon, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000030">
+		<string name="name" value="Green Dragon"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Dragon into a Green Dragon!"/>
+		<string name="descD" value="It was a cool Green Dragon, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000031">
+		<string name="name" value="Red Dragon"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Dragon into a Red Dragon!"/>
+		<string name="descD" value="It was a cool Red Dragon, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000032">
+		<string name="name" value="Blue Dragon"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Dragon into a Blue Dragon!"/>
+		<string name="descD" value="It was a cool Blue Dragon, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000033">
+		<string name="name" value="Black Dragon"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Dragon into the rare and majestic Black Dragon!"/>
+		<string name="descD" value="It was a magnificent Black Dragon, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000034">
+		<string name="name" value="Black Bunny"/>
+		<string name="desc" value="They are well-behaved and quiet, so they don&apos;t need to be fed more than the usual amount. They are smart and obedient, but also stubborn."/>
+		<string name="descD" value="It was a cute little bunny, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000036">
+		<string name="name" value="Jr. Reaper"/>
+		<string name="desc" value="Miniature death incarnate. Makes for a loyal but cheeky sidekick that is prone to talking back."/>
+		<string name="descD" value="It was a cute little Jr. Reaper, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000037">
+		<string name="name" value="Husky"/>
+		<string name="desc" value="Active, yet calm at times. Can be moderately fed. Very smart in general. "/>
+		<string name="descD" value="It was a cute little Huskey, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000039">
+		<string name="name" value="Porcupine"/>
+		<string name="desc" value="A small, furry creature with very, very sharp spikes. A lovable pet."/>
+		<string name="descD" value="It was a cute little porcupine, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000041">
+		<string name="name" value="Snowman"/>
+		<string name="desc" value="An adorable Snowman that is also very active. May seem a little rude at times, but the more it is loved, the more affable it becomes."/>
+		<string name="descD" value="It was a cute little snowman, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000044">
+		<string name="name" value="Orange tiger"/>
+		<string name="desc" value="They are very gentle and obedient in nature, easily becoming friendly with the owner, which in turn speeds up the level-up process."/>
+		<string name="descD" value="It was a cute little white tiger, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000045">
+		<string name="name" value="Skunk"/>
+		<string name="desc" value="Calm and quiet by nature, the easy-going, eccentric Skunk has a rather humorous and pompous outlook on life, the finer things are what it enjoys."/>
+		<string name="descD" value="It was a cute little skunk, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life..."/>
+	</imgdir>
+	<imgdir name="5000026">
+		<string name="name" value="&amp;#50576;&amp;#51381;&amp;#898;"/>
+		<string name="desc" value="&amp;#50364;&amp;#51508;&amp;#5090;&amp;#64213;&amp;#59102;&amp;#26483;&amp;#25706;&amp;#30808;&amp;#17141;&amp;#55826;&amp;#45056;&amp;#57026;&amp;#34103;&amp;#6427;&amp;#33020;&amp;#45449;&amp;#14891;&amp;#17229;&amp;#9233;&amp;#4897;&amp;#21525;&amp;#4126;&amp;#29601;&amp;#53237;&amp;#23665;&amp;#58748;&amp;#47932;&amp;#63025;&amp;#37425;&amp;#48582;&amp;#5787;&amp;#58793;&amp;#36434;&amp;#57331;&amp;#2564;&amp;#12781;&amp;#2946;&amp;#26522;&amp;#29695;&amp;#36019;&amp;#49878;&amp;#49614;&amp;#27130;&amp;#57173;&amp;#32665;&amp;#50397;&amp;#15137;&amp;#55125;&amp;#47634;&amp;#55278;&amp;#31359;&amp;#33645;&amp;#30044;&amp;#58877;&amp;#26757;&amp;#28653;&amp;#47624;&amp;#52413;&amp;#36177;&amp;#24152;&amp;#23583;&amp;#30260;&amp;#61074;&amp;#61059;&amp;#46905;&amp;#59132;&amp;#7241;&amp;#56716;&amp;#23159;&amp;#48943;&amp;#1144;&amp;#29851;&amp;#27327;&amp;#17547;&amp;#46247;&amp;#19816;&amp;#40761;&amp;#45250;&amp;#38080;&amp;#31190;&amp;#48626;&amp;#52964;&amp;#60688;&amp;#13616;&amp;#59700;"/>
+		<string name="descD" value="&amp;#43456;&amp;#52093;&amp;#27075;&amp;#14937;&amp;#58014;&amp;#3547;&amp;#51391;&amp;#1436;&amp;#12453;&amp;#5106;&amp;#47624;&amp;#26431;&amp;#35766;&amp;#41918;&amp;#34356;&amp;#30605;&amp;#11746;&amp;#17340;&amp;#38649;&amp;#7021;&amp;#57451;&amp;#4126;&amp;#26365;&amp;#49077;&amp;#9449;&amp;#22168;&amp;#31844;&amp;#59316;&amp;#40341;&amp;#48582;&amp;#5554;&amp;#62405;&amp;#39662;&amp;#57331;&amp;#1288;&amp;#18428;&amp;#5202;&amp;#42255;&amp;#987;&amp;#60175;&amp;#2872;&amp;#30754;&amp;#47971;&amp;#55276;&amp;#7508;&amp;#961;&amp;#15029;&amp;#27616;&amp;#53566;&amp;#44362;&amp;#45731;&amp;#35837;&amp;#47008;&amp;#22321;&amp;#7972;&amp;#7328;&amp;#32108;&amp;#3717;&amp;#33565;&amp;#39884;&amp;#10932;&amp;#28981;&amp;#23674;&amp;#38243;&amp;#46903;&amp;#9412;&amp;#7221;&amp;#6762;&amp;#39137;&amp;#3460;&amp;#29752;&amp;#42009;"/>
+	</imgdir>
+	<imgdir name="5000040">
+		<string name="name" value="&amp;#52476;&amp;#48217;&amp;#27331;&amp;#14937;&amp;#39586;&amp;#6275;"/>
+		<string name="desc" value="&amp;#53600;&amp;#46797;&amp;#26751;&amp;#14937;&amp;#36990;&amp;#3211;&amp;#41370;&amp;#49864;&amp;#9649;&amp;#8070;&amp;#45912;&amp;#26431;&amp;#59051;&amp;#56535;&amp;#34776;&amp;#30605;&amp;#21402;&amp;#11000;&amp;#22133;&amp;#25381;&amp;#37822;&amp;#41718;&amp;#28105;&amp;#2279;&amp;#58837;&amp;#37049;&amp;#27936;&amp;#63205;&amp;#23277;&amp;#4502;&amp;#30711;&amp;#59053;&amp;#36530;&amp;#27975;&amp;#46820;&amp;#14732;&amp;#31066;&amp;#41230;&amp;#45363;&amp;#37279;&amp;#52410;&amp;#49014;&amp;#40986;&amp;#42549;&amp;#51236;&amp;#961;&amp;#19745;&amp;#31257;&amp;#47618;&amp;#5430;&amp;#1699;&amp;#14649;&amp;#46948;&amp;#61149;&amp;#57305;&amp;#25005;&amp;#2252;&amp;#46289;&amp;#16053;&amp;#39180;&amp;#10083;&amp;#1637;&amp;#23674;&amp;#40583;&amp;#2387;&amp;#24192;&amp;#55969;&amp;#56770;&amp;#37408;&amp;#30944;&amp;#29768;&amp;#42007;&amp;#44867;&amp;#14747;&amp;#29963;&amp;#10470;&amp;#63116;&amp;#550;&amp;#9732;&amp;#48316;&amp;#31398;&amp;#8164;&amp;#9331;&amp;#39715;&amp;#59764;&amp;#48954;&amp;#29078;&amp;#54966;&amp;#35479;&amp;#55920;&amp;#25924;&amp;#46744;&amp;#39041;&amp;#45890;&amp;#42641;&amp;#2479;&amp;#50931;&amp;#4789;&amp;#33940;&amp;#17231;&amp;#29465;&amp;#9280;&amp;#36348;&amp;#5670;&amp;#62589;&amp;#14464;&amp;#63863;&amp;#7540;&amp;#11986;&amp;#31894;&amp;#50492;&amp;#27831;&amp;#17406;&amp;#11366;&amp;#22767;&amp;#14686;&amp;#56774;&amp;#58650;&amp;#52619;&amp;#47329;&amp;#10828;&amp;#51971;&amp;#6820;&amp;#17967;&amp;#36938;&amp;#23311;&amp;#40505;&amp;#36145;&amp;#44117;&amp;#64614;&amp;#13289;&amp;#21752;&amp;#58810;&amp;#65463;&amp;#8646;&amp;#1630;&amp;#19851;&amp;#15736;&amp;#40834;&amp;#8830;&amp;#21692;&amp;#34971;&amp;#44733;&amp;#12902;&amp;#57599;&amp;#53608;"/>
+		<string name="descD" value="&amp;#43456;&amp;#52093;&amp;#27075;&amp;#14937;&amp;#60402;&amp;#31031;&amp;#41470;&amp;#49864;&amp;#19649;&amp;#2382;&amp;#50352;&amp;#41687;&amp;#33451;&amp;#41207;&amp;#16716;&amp;#46960;&amp;#11355;&amp;#17296;&amp;#38649;&amp;#6905;&amp;#37711;&amp;#4126;&amp;#25989;&amp;#48281;&amp;#58837;&amp;#61288;&amp;#3168;&amp;#61629;&amp;#23277;&amp;#31390;&amp;#5554;&amp;#58433;&amp;#8850;&amp;#2502;&amp;#26136;&amp;#15076;&amp;#47206;&amp;#54390;&amp;#29783;&amp;#62975;&amp;#51619;&amp;#51914;&amp;#56126;&amp;#8151;&amp;#51240;&amp;#53592;&amp;#19304;&amp;#553;&amp;#5666;&amp;#44254;&amp;#3606;&amp;#65061;&amp;#52512;&amp;#22321;&amp;#27933;&amp;#25849;&amp;#47624;&amp;#52856;&amp;#33808;&amp;#39228;&amp;#39863;&amp;#2313;&amp;#39406;&amp;#60740;&amp;#29347;&amp;#59132;&amp;#54545;&amp;#56770;&amp;#38988;&amp;#49004;&amp;#340;&amp;#26242;&amp;#55373;&amp;#19515;&amp;#29957;"/>
+	</imgdir>
+	<imgdir name="5000042">
+		<string name="name" value="&amp;#54436;&amp;#49129;"/>
+		<string name="desc" value="&amp;#47128;&amp;#51020;&amp;#26627;&amp;#35053;&amp;#9006;&amp;#30771;&amp;#41742;&amp;#49864;&amp;#12329;&amp;#4814;&amp;#996;&amp;#44948;&amp;#36399;&amp;#52323;&amp;#62456;&amp;#30605;&amp;#16514;&amp;#14548;&amp;#17281;&amp;#3365;&amp;#21531;&amp;#43707;&amp;#26812;&amp;#56725;&amp;#58837;&amp;#40516;&amp;#28021;&amp;#36133;&amp;#39906;&amp;#31331;&amp;#29039;&amp;#37373;&amp;#8860;&amp;#57331;&amp;#46820;&amp;#33508;&amp;#47144;&amp;#26521;&amp;#45424;&amp;#39759;&amp;#56250;&amp;#30776;&amp;#54158;&amp;#56949;&amp;#261;&amp;#44497;&amp;#33617;&amp;#55125;&amp;#54086;&amp;#53858;&amp;#25567;&amp;#61460;&amp;#56140;&amp;#22322;"/>
+		<string name="descD" value="&amp;#43456;&amp;#52093;&amp;#27075;&amp;#14937;&amp;#60402;&amp;#7574;&amp;#55502;&amp;#967;&amp;#12825;&amp;#8186;&amp;#51716;&amp;#57043;&amp;#19275;&amp;#55782;&amp;#64489;&amp;#45301;&amp;#38654;&amp;#16372;&amp;#20909;&amp;#41445;&amp;#61075;&amp;#42094;&amp;#57101;&amp;#45337;&amp;#21129;&amp;#38820;&amp;#47932;&amp;#63193;&amp;#36056;&amp;#31422;&amp;#50055;&amp;#62732;&amp;#62062;&amp;#26511;&amp;#46820;&amp;#12660;&amp;#32002;&amp;#52142;&amp;#29606;&amp;#60195;&amp;#47602;&amp;#30764;&amp;#27130;&amp;#52544; &amp;#54973;&amp;#33629;&amp;#28349;&amp;#43671;&amp;#53802;&amp;#2783;&amp;#14649;&amp;#51096;&amp;#38349;&amp;#57305;&amp;#26360;&amp;#173;&amp;#51681;&amp;#16053;&amp;#58352;&amp;#24099;&amp;#1442;&amp;#39406;&amp;#23623;&amp;#32275;&amp;#59132;&amp;#56845;&amp;#56770;&amp;#40412;&amp;#32249;&amp;#29716;&amp;#5843;&amp;#27307;"/>
+	</imgdir>
+	<imgdir name="5000043">
+		<string name="name" value="&amp;#43232;&amp;#52261;&amp;#7347;&amp;#62497;"/>
+		<string name="desc" value="&amp;#50369;&amp;#48232;&amp;#30975;&amp;#14937;&amp;#36162;&amp;#1439;&amp;#45330;&amp;#28168;&amp;#62785;&amp;#55826;&amp;#49455;&amp;#52223;&amp;#19275;&amp;#53680;&amp;#34336;&amp;#45273;&amp;#38654;&amp;#14668;&amp;#11356;&amp;#29849;&amp;#21531;&amp;#48350;&amp;#7577;&amp;#47885;&amp;#11181;&amp;#37181;&amp;#2516;&amp;#33605;&amp;#23267;&amp;#48582;&amp;#5887;&amp;#60121;&amp;#39806;&amp;#57331;&amp;#3860;&amp;#17916;&amp;#47206;&amp;#40994;&amp;#45363;&amp;#60687;&amp;#52898;&amp;#50422;&amp;#54190;&amp;#8149;&amp;#51240;&amp;#51997;&amp;#17413;&amp;#4145;&amp;#5666;&amp;#42014;&amp;#2487;&amp;#35201;&amp;#30044;&amp;#40858;&amp;#6845;&amp;#29565;&amp;#2236;&amp;#3717;&amp;#34653;&amp;#39220;&amp;#23779;&amp;#46241;&amp;#61102;&amp;#61647;&amp;#46903;&amp;#8532;&amp;#56992;&amp;#28458;&amp;#59568;&amp;#48994;&amp;#50940;&amp;#42091;&amp;#27371;&amp;#65276;&amp;#30024;&amp;#18113;&amp;#57765;&amp;#45268;&amp;#38080;&amp;#1734;&amp;#47882;&amp;#54965;&amp;#35373;&amp;#39724;&amp;#59703;&amp;#47322;&amp;#26190;&amp;#2000;&amp;#17338;&amp;#52756;&amp;#42219;"/>
+		<string name="descD" value="&amp;#43456;&amp;#52093;&amp;#27075;&amp;#14937;&amp;#36846;&amp;#2379;&amp;#55182;&amp;#3248;&amp;#12825;&amp;#8186;&amp;#51716;&amp;#57043;&amp;#19275;&amp;#55782;&amp;#64489;&amp;#45301;&amp;#38654;&amp;#16372;&amp;#20909;&amp;#41445;&amp;#61075;&amp;#42094;&amp;#57101;&amp;#45337;&amp;#21129;&amp;#38820;&amp;#47932;&amp;#63193;&amp;#36056;&amp;#31422;&amp;#50055;&amp;#62732;&amp;#62062;&amp;#26511;&amp;#46820;&amp;#12660;&amp;#32002;&amp;#52142;&amp;#29606;&amp;#60195;&amp;#47602;&amp;#30764;&amp;#27130;&amp;#52544; &amp;#54973;&amp;#33629;&amp;#28349;&amp;#43671;&amp;#53802;&amp;#2783;&amp;#14649;&amp;#51096;&amp;#38349;&amp;#57305;&amp;#26360;&amp;#173;&amp;#51681;&amp;#16053;&amp;#58352;&amp;#24099;&amp;#1442;&amp;#39406;&amp;#23623;&amp;#32275;&amp;#59132;&amp;#56845;&amp;#56770;&amp;#40412;&amp;#32249;&amp;#29716;&amp;#5843;&amp;#27307;"/>
+	</imgdir>
+	<imgdir name="5000046">
+		<string name="name" value="&amp;#54436;&amp;#49129;"/>
+		<string name="desc" value="&amp;#47128;&amp;#51020;&amp;#26627;&amp;#35053;&amp;#9006;&amp;#30771;&amp;#41742;&amp;#49864;&amp;#12329;&amp;#4814;&amp;#996;&amp;#44948;&amp;#36399;&amp;#52323;&amp;#62456;&amp;#30605;&amp;#16514;&amp;#14548;&amp;#17281;&amp;#3365;&amp;#21531;&amp;#43707;&amp;#26812;&amp;#56725;&amp;#58837;&amp;#40516;&amp;#28021;&amp;#36133;&amp;#39906;&amp;#31331;&amp;#29039;&amp;#37373;&amp;#8860;&amp;#57331;&amp;#46820;&amp;#33508;&amp;#47144;&amp;#26521;&amp;#45424;&amp;#39759;&amp;#56250;&amp;#30776;&amp;#54158;&amp;#56949;&amp;#261;&amp;#44497;&amp;#33617;&amp;#55125;&amp;#54086;&amp;#53858;&amp;#25567;&amp;#61460;&amp;#56140;&amp;#22322;"/>
+		<string name="descD" value="&amp;#43456;&amp;#52093;&amp;#27075;&amp;#14937;&amp;#60402;&amp;#7574;&amp;#55502;&amp;#967;&amp;#12825;&amp;#8186;&amp;#51716;&amp;#57043;&amp;#19275;&amp;#55782;&amp;#64489;&amp;#45301;&amp;#38654;&amp;#16372;&amp;#20909;&amp;#41445;&amp;#61075;&amp;#42094;&amp;#57101;&amp;#45337;&amp;#21129;&amp;#38820;&amp;#47932;&amp;#63193;&amp;#36056;&amp;#31422;&amp;#50055;&amp;#62732;&amp;#62062;&amp;#26511;&amp;#46820;&amp;#12660;&amp;#32002;&amp;#52142;&amp;#29606;&amp;#60195;&amp;#47602;&amp;#30764;&amp;#27130;&amp;#52544; &amp;#54973;&amp;#33629;&amp;#28349;&amp;#43671;&amp;#53802;&amp;#2783;&amp;#14649;&amp;#51096;&amp;#38349;&amp;#57305;&amp;#26360;&amp;#173;&amp;#51681;&amp;#16053;&amp;#58352;&amp;#24099;&amp;#1442;&amp;#39406;&amp;#23623;&amp;#32275;&amp;#59132;&amp;#56845;&amp;#56770;&amp;#40412;&amp;#32249;&amp;#29716;&amp;#5843;&amp;#27307;"/>
+	</imgdir>
+	<imgdir name="5000047">
+		<string name="name" value="Robo"/>
+		<string name="desc" value="A special egg that becomes a mythical Robo upon hatching."/>
+	</imgdir>
+	<imgdir name="5000048">
+		<string name="name" value="Baby Robo"/>
+		<string name="desc" value="A Baby Robo hatched out of the special Capsule. At Level 15, the pet can be evolved into a full-fledged Adult Robo with the help of Garnox the NPC using the Rock of Evolution."/>
+		<string name="descD" value="It was a cute baby robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000049">
+		<string name="name" value="Blue Robo"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Robo into a Blue Robo!"/>
+		<string name="descD" value="It was a cool Blue Robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000050">
+		<string name="name" value="Red Robo"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Robo into a Red Robo!"/>
+		<string name="descD" value="It was a cool Red Robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000051">
+		<string name="name" value="Green Robo"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Robo into a Green Robo!"/>
+		<string name="descD" value="It was a cool Green Robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000052">
+		<string name="name" value="Gold Robo"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Robo into a Gold Robo!"/>
+		<string name="descD" value="It was a cool Gold Robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+	<imgdir name="5000053">
+		<string name="name" value="Gorilla Robo"/>
+		<string name="desc" value="Mysterious magical powers aligned and sucessfully evolved the Baby Robo into the rare and majestic Gorilla Robo!"/>
+		<string name="descD" value="It was a magnificent Gorilla Robo, but with the &quot;Water of Life&quot; all dried up, it turned back into a doll. A little magic can bring it back to life, however..."/>
+	</imgdir>
+</imgdir>
